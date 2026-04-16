@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd frontend && npm install || true",
+  "outputDirectory": "frontend",
+  "public": false
+}
