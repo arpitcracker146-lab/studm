@@ -1,0 +1,60 @@
+/* Global UI adjustments */
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Ensure the main content takes up remaining vertical space so footer stays down */
+.main-content {
+    flex: 1;
+}
+
+/* Card styling & Micro animations for premium feel */
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.summary-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Custom button rounded corners */
+.btn {
+    border-radius: 8px;
+}
+
+/* Table styling adjustments */
+.table th {
+    font-weight: 600;
+    color: #495057;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* Custom form inputs */
+.form-control, .form-select {
+    border-radius: 8px;
+    padding: 0.7rem 1rem;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: none;
+    border: 2px solid #0d6efd !important;
+    background-color: white !important;
+}
+
+/* Toast/Alerts positioning */
+#alert-box {
+    margin-bottom: 20px;
+}
+
+/* Footer layout */
+.footer {
+    margin-top: auto;
+}
